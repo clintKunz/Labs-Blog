@@ -1,7 +1,7 @@
 ---
 title: "Labs Week 1 - Team Home 3 aka Manaje"
 description: Lambda School Labs Week 1 Blog Post
-date: '2019-3-22'
+date: '2019-03-22'
 image: ''
 ---
 

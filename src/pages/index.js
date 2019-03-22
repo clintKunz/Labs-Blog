@@ -12,7 +12,7 @@ const IndexPage = (props) => {
     <Layout>
       <SEO title="Home" keywords={[`developer`, `software`, `programmer`]} />
       <h1>Hi people</h1>
-      <p>Welcome to my blog!</p>
+      <p>Welcome to my blog about Software Engineering on a team!</p>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         <Image />
       </div>
@@ -20,8 +20,6 @@ const IndexPage = (props) => {
           <Link to={node.fields.slug} className="link" >
             <div className="post-list">
               <h1>{node.frontmatter.title}</h1>
-              <span>{node.frontmatter.date}</span>
-              <p>{node.excerpt}</p>
             </div>
           </Link>
         ))}
