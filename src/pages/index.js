@@ -19,7 +19,7 @@ const IndexPage = (props) => {
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         <h4>We inherited Arq</h4>
         <img src={oldApp} />
-        <h4>and turned into Manaje</h4>
+        <h4>and turned it into Manaje</h4>
         <Image />
       </div>
         {postList.edges.map(({ node }, i) => (
