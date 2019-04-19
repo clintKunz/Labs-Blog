@@ -1,5 +1,5 @@
 ---
-title: "Labs Week 1 - Team Home 3 aka Manaje"
+title: "Labs Week 1 - Project Planning"
 description: Lambda School Labs Week 1 Blog Post
 date: '2019-03-22'
 image: arq.png

@@ -1,5 +1,5 @@
 ---
-title: "Labs Week 2 - Refactoring and Authentication"
+title: "Labs Week 2 - Working with Other Developers"
 description: Lambda School Labs Week 2 Blog Post
 date: '2019-03-29'
 image: contribution.png

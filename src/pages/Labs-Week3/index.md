@@ -1,5 +1,5 @@
 ---
-title: "Labs Week 3 - Display User X's Data"
+title: "Labs Week 3 - Understanding Scope"
 description: Lambda School Labs Week 3 Blog Post
 date: '2019-04-05'
 image: contribution3.png
