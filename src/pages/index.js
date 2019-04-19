@@ -1,10 +1,13 @@
 import React from "react"
 import { Link, graphql } from 'gatsby'
+import Img from "gatsby-image"
 //import './post.css';
 
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+
+import oldApp from "../images/oldApp.png"
 
 const IndexPage = (props) => {
   const postList = props.data.allMarkdownRemark;
@@ -14,6 +17,9 @@ const IndexPage = (props) => {
       <h1>My Lambda Labs Experience</h1>
       <p>Welcome to my blog about Software Engineering on a team! Below are 5 blog posts documenting my experience during Lambda School Labs. Labs is a 5-week long team project. Check out my experience!</p>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+        <h4>We inherited Arq</h4>
+        <img src={oldApp} />
+        <h4>and turned into Manaje</h4>
         <Image />
       </div>
         {postList.edges.map(({ node }, i) => (
