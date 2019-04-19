@@ -11,8 +11,8 @@ const IndexPage = (props) => {
   return (
     <Layout>
       <SEO title="Home" keywords={[`developer`, `software`, `programmer`]} />
-      <h1>Hi people</h1>
-      <p>Welcome to my blog about Software Engineering on a team!</p>
+      <h1>My Lambda Labs Experience</h1>
+      <p>Welcome to my blog about Software Engineering on a team! Below are 5 blog posts documenting my experience during Lambda School Labs. Labs is a 5-week long team project. Check out my experience!</p>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         <Image />
       </div>
