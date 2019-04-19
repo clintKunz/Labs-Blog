@@ -20,7 +20,7 @@ const IndexPage = (props) => {
         <h4>We inherited Arq</h4>
         <img src={oldApp} />
         <h4>and turned it into Manaje</h4>
-        <Image />
+        <a href="https://manaje-refactor.netlify.com" target="_blank"><Image /></a>
       </div>
         {postList.edges.map(({ node }, i) => (
           <Link to={node.fields.slug} className="link" >
